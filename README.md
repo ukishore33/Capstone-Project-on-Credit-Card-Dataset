@@ -16,6 +16,10 @@
 
 - While observing every column separately, we observed the values which are wrongly typed or in some values in which the values should be dropped, we cleaned the data accordingly. We checked the data for null values and filled that with appropriate values like mean, median and mode which better fits that column.
 
+- The Dataset after every cleaning is done is saved as a file and attached below.
+
+  [The Cleaned Dataset](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Cleaned_dataset%20(1))
+
 - while performing Exploratory data analysis, we performed univariate analysis that is histogram and pie chart for some columns, Bivariate Analysis that is box plot,Scatter plot, correlation between data using heatmap and listed down the observations accordingly.
 
 - While performing Feauture engineering, we performed encoding using label encoder, we performed scaling using standard scalar.
