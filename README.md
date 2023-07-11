@@ -4,9 +4,9 @@
 
 - The datasets of the project is linked below
 
-[The X Dataset](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_card.csv)
+  [The X Dataset](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_card.csv)
 
-[The Y Dataset](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_card_label.csv)
+  [The Y Dataset](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_card_label.csv)
 
 - The main aim of the Project was to perform Exploratory Data Analysis and Perform cleaning and perform predictions from the Credit Card Dataset.
 
@@ -30,4 +30,4 @@
 
 - The Project's Data Cleaning part, EDA and Feauture Engineering,ML is Done in the file Below.
 
-[The Project File ](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card_ML.ipynb)
+  [The Project File ](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card_ML.ipynb)
