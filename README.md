@@ -36,6 +36,6 @@
 
 - The Queries we performed is saved in a file and linked below.
 
-  [My SQL File](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card.sql)
+   [My SQL File](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card.sql)
 
   
