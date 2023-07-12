@@ -31,3 +31,11 @@
 - The Project's Data Cleaning part, EDA and Feauture Engineering,ML is Done in the file Below.
 
   [The Project File ](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card_ML.ipynb)
+
+#### Performed Data Analysis using MySQL Tool and obtained Some Insights from it.
+
+- The Queries we performed is saved in a file and linked below.
+
+  [My SQL File](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card.sql)
+
+  
