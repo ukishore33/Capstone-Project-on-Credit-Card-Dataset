@@ -32,7 +32,7 @@
 
   [The Project File ](https://github.com/ukishore33/Analysing-Credit-Card-Dataset/blob/main/Credit_Card_ML.ipynb)
 
-#### Performed Data Analysis using MySQL Tool and obtained Some Insights from it.
+- Performed Data Analysis using MySQL Tool and obtained Some Insights from it.
 
 - The Queries we performed is saved in a file and linked below.
 
