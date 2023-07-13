@@ -1,0 +1,6 @@
+MyUnknownColumn,Ind_ID,GENDER,Car_Owner,Propert_Owner,CHILDREN,Annual_income,Type_Income,EDUCATION,Marital_status,Housing_type,Birthday_count,Employed_days,Mobile_phone,Work_Phone,Phone,EMAIL_ID,Type_Occupation,Family_Members,label
+233,5143235,F,Y,Y,1,1575000,"Commercial associate","Higher education","Single / not married","House / apartment",-10142,-2479,1,0,0,0,Managers,2,0
+211,5143231,F,Y,Y,1,1575000,"Commercial associate","Higher education","Single / not married","House / apartment",-10142,-2479,1,0,0,0,Managers,2,0
+1068,5116005,M,Y,Y,1,900000,"Commercial associate","Higher education","Civil marriage","House / apartment",-16923,-2537,1,0,0,0,"High skill tech staff",3,0
+686,5079016,M,Y,Y,2,900000,"Commercial associate","Higher education",Married,"House / apartment",-9889,-1000,1,0,0,0,Managers,4,0
+811,5079017,M,Y,Y,2,900000,"Commercial associate","Higher education",Married,"House / apartment",-9889,-1000,1,0,0,0,Managers,4,0

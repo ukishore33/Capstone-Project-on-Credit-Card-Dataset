@@ -15,7 +15,7 @@ WHERE GENDER = 'F'
 AND (Propert_Owner = 'Y' and Car_Owner = 'Y');
 
 #To find total number of females owning car and property
-SELECT count(*)
+SELECT count(*) as Total_Number_of_females_Having_Cars_Property
 FROM credit_dataset
 WHERE GENDER = 'F'
 AND (Propert_Owner = 'Y' and Car_Owner = 'Y');
@@ -50,11 +50,6 @@ order by count(*) desc
 limit 1;
 
 #7)between Married males and females who is having more bad credit.
-
-SELECT COUNT(*) AS num_married_couples_bad_credit
-FROM credit_dataset
-WHERE label = '1'
-AND marital_status = "Married";
 
 SELECT gender, COUNT(*) AS Total_Count
 FROM credit_dataset
