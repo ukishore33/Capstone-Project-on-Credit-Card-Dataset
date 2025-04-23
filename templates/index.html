@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Fraud Detector</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    h2 { color: darkblue; }
+    input[type=text] { width: 80px; padding: 5px; margin: 5px; }
+    .input-row { display: flex; flex-wrap: wrap; }
+    .form-block { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+  <h2>Credit Card Fraud Detection (Random Forest)</h2>
+  <form method="POST" action="/predict">
+    <div class="input-row">
+      {% for i in range(30) %}
+        <div class="form-block">
+          <label>Feature {{ i }}: </label>
+          <input type="text" name="feature{{ i }}" required>
+        </div>
+      {% endfor %}
+    </div>
+    <br><br>
+    <input type="submit" value="Predict">
+  </form>
+
+  <h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
