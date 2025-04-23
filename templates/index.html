@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Credit Card Fraud Detector</title>
-  <style>
-    body { font-family: Arial; margin: 40px; }
-    h2 { color: darkblue; }
-    input[type=text] { width: 80px; padding: 5px; margin: 5px; }
-    .input-row { display: flex; flex-wrap: wrap; }
-    .form-block { margin-bottom: 20px; }
-  </style>
+    <title>Credit Default Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-
-  <h2>Credit Card Fraud Detection (Random Forest)</h2>
-  <form method="POST" action="/predict">
-    <div class="input-row">
-      {% for i in range(30) %}
-        <div class="form-block">
-          <label>Feature {{ i }}: </label>
-          <input type="text" name="feature{{ i }}" required>
-        </div>
-      {% endfor %}
+    <div class="container">
+        <h1>💳 Credit Card Default Predictor</h1>
+        <form method="POST" action="/predict">
+            {% for field in ['GENDER', 'Car_Owner', 'Propert_Owner', 'CHILDREN', 'Annual_income',
+                            'Type_Income', 'EDUCATION', 'Marital_status', 'Housing_type',
+                            'Birthday_count', 'Employed_days', 'Mobile_phone', 'Work_Phone',
+                            'Phone', 'EMAIL_ID', 'Type_Occupation', 'Family_Members'] %}
+                <label for="{{ field }}">{{ field.replace('_', ' ') }}</label>
+                <input type="text" name="{{ field }}" required>
+            {% endfor %}
+            <button type="submit">Predict</button>
+        </form>
+        {% if prediction_text %}
+            <div class="result">
+                <h2>{{ prediction_text }}</h2>
+            </div>
+        {% endif %}
     </div>
-    <br><br>
-    <input type="submit" value="Predict">
-  </form>
-
-  <h3>{{ prediction_text }}</h3>
-
 </body>
 </html>
